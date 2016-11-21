@@ -1,14 +1,14 @@
 {
     "name": "angular2-skeleton",
     "version": "1.0.0",
-    "description": "BE-DEV Angular2 Skeleton Project",
+    "description": "Rascal's Angular2 Skeleton project",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
         "lite": "lite-server",
         "tsc": "tsc",
         "tsc:w": "tsc -w"
     },
-    "license": "UNLICENCED",
+    "license": "UNLICENSED",
     "repository": {
         "type": "git",
         "url": ""
