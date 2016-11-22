@@ -13,17 +13,17 @@
             '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
             '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
-            
-            rxjs: 'nmp:rxjs',
+
+            'rxjs': 'npm:rxjs',
             'angular-in-memory-web-api': 'npm:angular-in-memory-web-api'
         },
-
+        
         packages: {
             app: {
                 main: './main.js',
                 defaultExtension: 'js'
             },
-            'rxjs': {
+            rxjs: {
                 defaultExtension: 'js'
             },
             'angular-in-memory-web-api': {
@@ -31,5 +31,5 @@
                 defaultExtension: 'js'
             }
         }
-    })
+    });
 })(this);
