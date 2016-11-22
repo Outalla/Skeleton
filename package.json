@@ -1,11 +1,7 @@
 {
     "name": "angular2-skeleton",
     "version": "1.0.0",
-<<<<<<< HEAD
     "description": "BE-DEV's Angular2 Skeleton project",
-=======
-    "description": "Rascal's Angular2 Skeleton project",
->>>>>>> devslopes-branch
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
         "lite": "lite-server",
